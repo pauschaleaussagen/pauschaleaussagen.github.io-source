@@ -31,10 +31,11 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
-STATIC_PATHS = ['images', 'extra/CNAME', 'extra/README', 'extra/LICENSE']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
-		       'extra/README': {'path': 'README.md'},
-		       'extra/LICENSE': {'path': 'LICENSE.md'},
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {'extra/CNAME'     : {'path' : 'CNAME'},
+		       'extra/README'    : {'path' : 'README'},
+		       'extra/LICENSE'   : {'path' : 'LICENSE'},
+		       'extra/.htaccess' : {'path' : '.htaccess'},
 		      }
 
 # Uncomment following line if you want document-relative URLs when developing
