@@ -12,8 +12,15 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'de'
 
-THEME="theme/pelican-bootstrap3"
-BOOTSTRAP_THEME="flatly"
+THEME = "theme/pelican-bootstrap3"
+BOOTSTRAP_THEME = 'flatly'
+
+CC_LICENSE = 'CC-BY-SA'
+#CC_ATTR_MARKUP = True
+
+# Article info
+SHOW_ARTICLE_AUTHOR = True
+SHOW_ARTICLE_CATEGORY = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,7 +36,7 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (('twitter', 'http://twitter.com/PauschalAussage'),
           ('github' , 'http://github.com/pauschaleaussagen'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = True
 
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {'extra/CNAME'     : {'path' : 'CNAME'},
