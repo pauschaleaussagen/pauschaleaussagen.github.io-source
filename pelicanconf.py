@@ -31,7 +31,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
-STATIC_PATHS = ['images', 'extra/CNAME']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/README', 'extra/LICENSE']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
 		       'extra/README': {'path': 'README.md'},
 		       'extra/LICENSE': {'path': 'LICENSE.md'},
