@@ -1,4 +1,4 @@
-Title: My super title
+Title: Super Test Article
 Date: 2014-11-17 21:31
 Category: Python
 Tags: pelican, publishing
