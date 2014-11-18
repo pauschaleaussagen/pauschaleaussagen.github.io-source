@@ -23,14 +23,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('github', 'https://github.com/pauschaleaussagen'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/PauschalAussage'),
+          ('github' , 'http://github.com/pauschaleaussagen'),)
 
 DEFAULT_PAGINATION = False
 
