@@ -1,8 +1,8 @@
 Title: Super Test Article
 Date: 2014-11-17 21:31
-Category: Python
+Category: Blog
 Tags: pelican, publishing
-Slug: my-super-post
+Slug: Super Test Article
 Author: Julian Wishahi
 Summary: Short version for index and feeds
 

@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Julian Wishahi'
 SITENAME = u'PauschaleAussagen'
-SITEURL = 'www.pauschaleaussagen.de'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'de'
 
-#THEME="theme/pelican-bootstrap3"
+THEME="theme"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
